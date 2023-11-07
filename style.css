@@ -1,0 +1,37 @@
+section{
+    height: 600px;
+    width: 600px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#child1{
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+}
+#child2{
+    height: 300px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 10px;
+    background-color: rgb(199, 124, 33);
+}
+
+#gchild1{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(33, 199, 138);
+
+}
+#gchild2{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(157, 33, 199);
+
+}
